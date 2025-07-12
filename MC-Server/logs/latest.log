@@ -1,0 +1,133 @@
+[12Jul2025 18:26:44.945] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.172, --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[12Jul2025 18:26:44.948] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[12Jul2025 18:26:44.951] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Microsoft; OS Linux arch amd64 version 6.8.0-1027-azure
+[12Jul2025 18:26:45.181] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Jul2025 18:26:45.264] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/Pixlemon-MC/MC-Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[12Jul2025 18:26:45.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.172:server]
+[12Jul2025 18:26:45.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.172-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar]], reader: mod manifest]
+[12Jul2025 18:26:45.929] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pixelmon-1.21.1-9.3.5-universal.jar" [locator: {mods folder locator at /workspaces/Pixlemon-MC/MC-Server/mods}, reader: mod manifest]
+[12Jul2025 18:26:46.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12Jul2025 18:26:46.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.172-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Jul2025 18:26:46.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.172.jar" [parent: neoforge-21.1.172-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Jul2025 18:26:46.111] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.172 (neoforge)
+		Pixelmon 9.3.5 (pixelmon)
+[12Jul2025 18:26:47.247] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[12Jul2025 18:26:47.273] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[12Jul2025 18:26:47.443] [main/WARN] [mixin/]: Reference map 'pixelmon.refmap.json' for mixins.pixelmon.json could not be read. If this is a development environment you can ignore this message
+[12Jul2025 18:26:48.855] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Jul2025 18:26:59.403] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.408] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.410] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.412] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.412] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.435] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.172, for MC 1.21.1
+[12Jul2025 18:27:03.784] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:03.786] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:03.790] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.425] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loading Pixelmon version 9.3.5
+[12Jul2025 18:27:04.431] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loaded Advancements
+[12Jul2025 18:27:04.456] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[12Jul2025 18:27:04.493] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[12Jul2025 18:27:04.668] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.669] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.670] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.672] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.672] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.675] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.675] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.676] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.677] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.678] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.679] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.682] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.702] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.703] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.705] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.705] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.706] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.709] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.710] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.712] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.715] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.716] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.717] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.718] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.719] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.719] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[12Jul2025 18:27:04.720] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.726] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.726] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.727] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.728] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractInteractionsEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.728] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBattleEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.732] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.732] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.760] [modloading-worker-0/INFO] [Pixelmon TCG/]: Loading TCG version 9.3.5
+[12Jul2025 18:27:04.785] [modloading-worker-0/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.3.5
+[12Jul2025 18:27:05.381] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12Jul2025 18:27:05.422] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Found status: UP_TO_DATE Current: 9.3.5 Target: null
+[12Jul2025 18:27:05.430] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[12Jul2025 18:27:05.449] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Found status: UP_TO_DATE Current: 9.3.5 Target: null
+[12Jul2025 18:27:05.587] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Pixlemon-MC/MC-Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23118!/assets/.mcassetsroot' uses unexpected schema
+[12Jul2025 18:27:05.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Pixlemon-MC/MC-Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23118!/data/.mcassetsroot' uses unexpected schema
+[12Jul2025 18:27:09.590] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag pixelmon:spawning/drowned as it is missing following references: 
+	pixelmon:drowned_crimson (from mod/pixelmon,tcg)
+	pixelmon:drowned_dark (from mod/pixelmon,tcg)
+	pixelmon:drowned_warm (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.674] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:types/pokemon/basep as it is missing following references: 
+	tcg:basep-3 (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.677] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:pokemon as it is missing following references: 
+	#tcg:types/pokemon/basep (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.677] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:types/basic/basep as it is missing following references: 
+	tcg:basep-3 (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.677] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:basic as it is missing following references: 
+	#tcg:types/basic/basep (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.678] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:basep as it is missing following references: 
+	tcg:basep-3 (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.679] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:trainer as it is missing following references: 
+	#tcg:basep (from mod/pixelmon,tcg)
+[12Jul2025 18:27:10.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2451 recipes
+[12Jul2025 18:27:11.366] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2480 advancements
+[12Jul2025 18:27:12.979] [main/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[12Jul2025 18:27:13.342] [main/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
+[12Jul2025 18:27:15.724] [main/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
+[12Jul2025 18:27:24.359] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / tcg:card/card] are present in data pack: tcg:basep
+[12Jul2025 18:27:25.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[12Jul2025 18:27:25.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jul2025 18:27:25.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jul2025 18:27:25.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jul2025 18:27:25.468] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jul2025 18:27:25.530] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jul2025 18:27:25.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Jul2025 18:27:40.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jul2025 18:27:41.199] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2025 18:27:41.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2025 18:27:41.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2025 18:27:41.561] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1251 ms
+[12Jul2025 18:27:41.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.909s)! For help, type "help"
+[12Jul2025 18:27:41.804] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12Jul2025 18:27:41.827] [Server thread/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Datapacks found: vanilla,mod_data,mod/neoforge,mod/pixelmon,tcg
+[12Jul2025 18:27:41.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Jul2025 18:27:41.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jul2025 18:27:41.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jul2025 18:27:41.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jul2025 18:27:42.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Jul2025 18:27:42.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/pixelmon:debug
+[12Jul2025 18:27:43.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/pixelmon:ultra_space
+[12Jul2025 18:27:43.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Jul2025 18:27:43.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Jul2025 18:27:43.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jul2025 18:27:43.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (debug): All chunks are saved
+[12Jul2025 18:27:43.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ultra_space): All chunks are saved
+[12Jul2025 18:27:43.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jul2025 18:27:43.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jul2025 18:27:43.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

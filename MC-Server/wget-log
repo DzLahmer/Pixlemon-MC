@@ -1,0 +1,19 @@
+--2025-07-12 18:16:23--  http://adfoc.us/serve/sitelinks/?id=249378
+Resolving adfoc.us (adfoc.us)... 104.26.6.10, 172.67.74.85, 104.26.7.10, ...
+Connecting to adfoc.us (adfoc.us)|104.26.6.10|:80... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: / [following]
+--2025-07-12 18:16:23--  http://adfoc.us/
+Reusing existing connection to adfoc.us:80.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://adfoc.us/ [following]
+--2025-07-12 18:16:23--  https://adfoc.us/
+Connecting to adfoc.us (adfoc.us)|104.26.6.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘index.html?id=249378’
+
+index.html?id=249378                   [<=>                                                              ]       0  --.-KB/s               index.html?id=249378                   [ <=>                                                             ]   9.52K  --.-KB/s    in 0s      
+
+2025-07-12 18:16:24 (91.8 MB/s) - ‘index.html?id=249378’ saved [9744]
+

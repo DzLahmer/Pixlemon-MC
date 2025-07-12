@@ -1,0 +1,891 @@
+[12Jul2025 18:26:44.945] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 21.1.172, --fml.fmlVersion, 4.0.39, --fml.mcVersion, 1.21.1, --fml.neoFormVersion, 20240808.144430]
+[12Jul2025 18:26:44.948] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Microsoft OpenJDK 64-Bit Server VM 21.0.7+6-LTS
+[12Jul2025 18:26:44.951] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.4+main.d2e20e43 starting: java version 21.0.7 by Microsoft; OS Linux arch amd64 version 6.8.0-1027-azure
+[12Jul2025 18:26:44.984] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgejunitdev,forgeclientdev,forgeclientuserdev,forgeserver,forgejunituserdev,forgedatadev]
+[12Jul2025 18:26:45.010] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[12Jul2025 18:26:45.022] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[12Jul2025 18:26:45.032] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/Pixlemon-MC/MC-Server
+[12Jul2025 18:26:45.032] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/Pixlemon-MC/MC-Server/mods
+[12Jul2025 18:26:45.032] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/Pixlemon-MC/MC-Server/config
+[12Jul2025 18:26:45.033] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/Pixlemon-MC/MC-Server/config/fml.toml
+[12Jul2025 18:26:45.096] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /workspaces/Pixlemon-MC/MC-Server/config/fml.toml
+[12Jul2025 18:26:45.098] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[12Jul2025 18:26:45.099] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[12Jul2025 18:26:45.100] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[12Jul2025 18:26:45.101] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[12Jul2025 18:26:45.101] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[12Jul2025 18:26:45.102] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[12Jul2025 18:26:45.102] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[12Jul2025 18:26:45.102] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[12Jul2025 18:26:45.105] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[12Jul2025 18:26:45.105] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[12Jul2025 18:26:45.105] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[12Jul2025 18:26:45.106] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[12Jul2025 18:26:45.106] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[12Jul2025 18:26:45.171] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[12Jul2025 18:26:45.181] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[12Jul2025 18:26:45.191] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,fml]
+[12Jul2025 18:26:45.191] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[12Jul2025 18:26:45.192] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[12Jul2025 18:26:45.192] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[12Jul2025 18:26:45.192] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[12Jul2025 18:26:45.193] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 4.0.39 loading
+[12Jul2025 18:26:45.193] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 11.0.4+main.d2e20e43
+[12Jul2025 18:26:45.194] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[12Jul2025 18:26:45.195] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[12Jul2025 18:26:45.195] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[12Jul2025 18:26:45.195] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[12Jul2025 18:26:45.196] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[12Jul2025 18:26:45.228] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=21.1.172, fmlVersion=4.0.39, mcVersion=1.21.1, neoFormVersion=20240808.144430]
+[12Jul2025 18:26:45.229] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[12Jul2025 18:26:45.230] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[12Jul2025 18:26:45.252] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@77caeb3e
+[12Jul2025 18:26:45.264] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/workspaces/Pixlemon-MC/MC-Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar%2373!/ Service=ModLauncher Env=SERVER
+[12Jul2025 18:26:45.268] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[12Jul2025 18:26:45.268] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Jul2025 18:26:45.269] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Jul2025 18:26:45.270] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Jul2025 18:26:45.270] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Jul2025 18:26:45.271] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[12Jul2025 18:26:45.273] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[12Jul2025 18:26:45.273] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[12Jul2025 18:26:45.273] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[12Jul2025 18:26:45.273] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/Pixlemon-MC/MC-Server
+[12Jul2025 18:26:45.274] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/Pixlemon-MC/MC-Server/mods
+[12Jul2025 18:26:45.274] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/Pixlemon-MC/MC-Server/config
+[12Jul2025 18:26:45.274] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/Pixlemon-MC/MC-Server/config/fml.toml
+[12Jul2025 18:26:45.274] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[12Jul2025 18:26:45.276] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /workspaces/Pixlemon-MC/MC-Server/config/fml.toml
+[12Jul2025 18:26:45.277] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[12Jul2025 18:26:45.277] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[12Jul2025 18:26:45.277] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[12Jul2025 18:26:45.277] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[12Jul2025 18:26:45.277] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[12Jul2025 18:26:45.278] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[12Jul2025 18:26:45.278] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[12Jul2025 18:26:45.278] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[12Jul2025 18:26:45.278] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[12Jul2025 18:26:45.278] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[12Jul2025 18:26:45.279] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[12Jul2025 18:26:45.279] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[12Jul2025 18:26:45.280] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[12Jul2025 18:26:45.282] [main/DEBUG] [net.neoforged.fml.loading.LaunchContext/SCAN]: Located paths when launch context was created: [/workspaces/Pixlemon-MC/MC-Server/libraries/com/mojang/authlib/6.0.54/authlib-6.0.54.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/machinezoo/noexception/noexception/1.7.1/noexception-1.7.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/apache/logging/log4j/log4j-api/2.22.1/log4j-api-2.22.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/java/dev/jna/jna-platform/5.14.0/jna-platform-5.14.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/fancymodloader/earlydisplay/4.0.39/earlydisplay-4.0.39.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/j2objc/j2objc-annotations/2.8/j2objc-annotations-2.8.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-transport-classes-epoll/4.1.97.Final/netty-transport-classes-epoll-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/minecrell/terminalconsoleappender/1.3.0/terminalconsoleappender-1.3.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-codec/4.1.97.Final/netty-codec-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/lz4/lz4-java/1.8.0/lz4-java-1.8.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/jline/jline-terminal/3.20.0/jline-terminal-3.20.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/apache/logging/log4j/log4j-core/2.22.1/log4j-core-2.22.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.22.1/log4j-slf4j2-impl-2.22.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-common/4.1.97.Final/netty-common-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-handler/4.1.97.Final/netty-handler-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/accesstransformers/10.0.1/accesstransformers-10.0.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/sponge-mixin-0.15.2+mixin.0.8.7.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-transport-native-unix-common/4.1.97.Final/netty-transport-native-unix-common-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/guava/guava/32.1.2-jre/guava-32.1.2-jre.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/bus/8.0.2/bus-8.0.2.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/mergetool/2.0.0/mergetool-2.0.0-api.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/antlr/antlr4-runtime/4.13.1/antlr4-runtime-4.13.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/mojang/datafixerupper/8.0.16/datafixerupper-8.0.16.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/checkerframework/checker-qual/3.33.0/checker-qual-3.33.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/errorprone/error_prone_annotations/2.18.0/error_prone_annotations-2.18.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/cpw/mods/modlauncher/11.0.4/modlauncher-11.0.4.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/github/oshi/oshi-core/6.4.10/oshi-core-6.4.10.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/mojang/logging/1.2.7/logging-1.2.7.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/jline/jline-reader/3.20.0/jline-reader-3.20.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/JarJarSelector/0.4.1/JarJarSelector-0.4.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-buffer/4.1.97.Final/netty-buffer-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/minecraftforge/srgutils/0.4.15/srgutils-0.4.15.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/electronwill/night-config/core/3.8.2/core-3.8.2.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-transport/4.1.97.Final/netty-transport-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/coremods/7.0.3/coremods-7.0.3.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/it/unimi/dsi/fastutil/8.5.12/fastutil-8.5.12.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/org/joml/joml/1.10.5/joml-1.10.5.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/electronwill/night-config/toml/3.8.2/toml-3.8.2.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/java/dev/jna/jna/5.14.0/jna-5.14.0.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/accesstransformers/at-modlauncher/10.0.1/at-modlauncher-10.0.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/fancymodloader/loader/4.0.39/loader-4.0.39.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-x86_64.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-resolver/4.1.97.Final/netty-resolver-4.1.97.Final.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/JarJarMetadata/0.4.1/JarJarMetadata-0.4.1.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/io/netty/netty-transport-native-epoll/4.1.97.Final/netty-transport-native-epoll-4.1.97.Final-linux-aarch_64.jar, /workspaces/Pixlemon-MC/MC-Server/libraries/net/jodah/typetools/0.6.3/typetools-0.6.3.jar]
+[12Jul2025 18:26:45.282] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[12Jul2025 18:26:45.283] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[12Jul2025 18:26:45.283] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist DEDICATED_SERVER
+[12Jul2025 18:26:45.285] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[12Jul2025 18:26:45.285] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[12Jul2025 18:26:45.286] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[12Jul2025 18:26:45.286] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[12Jul2025 18:26:45.286] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[12Jul2025 18:26:45.286] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[12Jul2025 18:26:45.303] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 4 implementations of IModFileCandidateLocator:
+[12Jul2025 18:26:45.304] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.ProductionServerProvider from loader-4.0.39.jar
+[12Jul2025 18:26:45.307] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	    1000 - [built-in] net.neoforged.fml.loading.moddiscovery.locators.PathBasedLocator from loader-4.0.39.jar
+[12Jul2025 18:26:45.308] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator from loader-4.0.39.jar
+[12Jul2025 18:26:45.308] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.MavenDirectoryLocator from loader-4.0.39.jar
+[12Jul2025 18:26:45.310] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 2 implementations of IModFileReader:
+[12Jul2025 18:26:45.311] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader from loader-4.0.39.jar
+[12Jul2025 18:26:45.312] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	   -1000 - net.neoforged.fml.loading.moddiscovery.readers.NestedLibraryModReader from loader-4.0.39.jar
+[12Jul2025 18:26:45.314] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of IDependencyLocator:
+[12Jul2025 18:26:45.314] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	       0 - net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator from loader-4.0.39.jar
+[12Jul2025 18:26:45.315] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 4 ways to find mods
+[12Jul2025 18:26:45.315] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator production server provider +net.neoforged:neoforge:21.1.172:server
+[12Jul2025 18:26:45.849] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[12Jul2025 18:26:45.852] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.21.1-20240808.144430-srg.jar" [locator: production server provider +net.neoforged:neoforge:21.1.172:server]
+[12Jul2025 18:26:45.854] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator production server provider +net.neoforged:neoforge:21.1.172:server found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Jul2025 18:26:45.855] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar]]
+[12Jul2025 18:26:45.860] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar
+[12Jul2025 18:26:45.861] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar
+[12Jul2025 18:26:45.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.172-universal.jar with {neoforge} mods - versions {21.1.172}
+[12Jul2025 18:26:45.885] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-21.1.172-universal.jar" [locator: PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar]], reader: mod manifest]
+[12Jul2025 18:26:45.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator PathBasedLocator[name=neoforge, paths=[libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar]] found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Jul2025 18:26:45.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at /workspaces/Pixlemon-MC/MC-Server/mods}
+[12Jul2025 18:26:45.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.locators.ModsFolderLocator/SCAN]: Scanning mods dir /workspaces/Pixlemon-MC/MC-Server/mods for mods
+[12Jul2025 18:26:45.920] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/neoforge.mods.toml mod of type null: /workspaces/Pixlemon-MC/MC-Server/mods/Pixelmon-1.21.1-9.3.5-universal.jar
+[12Jul2025 18:26:45.921] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Pixlemon-MC/MC-Server/mods/Pixelmon-1.21.1-9.3.5-universal.jar
+[12Jul2025 18:26:45.928] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Pixelmon-1.21.1-9.3.5-universal.jar with {pixelmon,tcg} mods - versions {9.3.5,9.3.5}
+[12Jul2025 18:26:45.929] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "Pixelmon-1.21.1-9.3.5-universal.jar" [locator: {mods folder locator at /workspaces/Pixlemon-MC/MC-Server/mods}, reader: mod manifest]
+[12Jul2025 18:26:45.929] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/Pixlemon-MC/MC-Server/mods} found 1 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Jul2025 18:26:45.929] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator maven libs
+[12Jul2025 18:26:45.932] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[12Jul2025 18:26:45.933] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator maven libs found 0 mods, 0 warnings, 0 errors and skipped 0 candidates
+[12Jul2025 18:26:45.943] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 3 mods. Attempting to load dependencies...
+[12Jul2025 18:26:45.943] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator jarinjar
+[12Jul2025 18:26:45.957] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.21.1-20240808.144430-srg.jar, it does not contain dependency information.
+[12Jul2025 18:26:45.958] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from Pixelmon-1.21.1-9.3.5-universal.jar, it does not contain dependency information.
+[12Jul2025 18:26:46.048] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[12Jul2025 18:26:46.052] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[12Jul2025 18:26:46.053] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mixinextras-neoforge-0.4.1.jar, it does not contain dependency information.
+[12Jul2025 18:26:46.053] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from net.neoforged.neoforge-coremods-21.1.172.jar, it does not contain dependency information.
+[12Jul2025 18:26:46.097] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type LIBRARY: 
+[12Jul2025 18:26:46.102] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.readers.JarModsDotTomlModFileReader/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: 
+[12Jul2025 18:26:46.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[12Jul2025 18:26:46.104] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found gamelibrary file "mixinextras-neoforge-0.4.1.jar" [parent: neoforge-21.1.172-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Jul2025 18:26:46.106] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found library file "net.neoforged.neoforge-coremods-21.1.172.jar" [parent: neoforge-21.1.172-universal.jar, locator: jarinjar, reader: mod manifest]
+[12Jul2025 18:26:46.111] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.172 (neoforge)
+		Pixelmon 9.3.5 (pixelmon)
+[12Jul2025 18:26:46.123] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.21.1-20240808.144430-srg.jar with {minecraft} mods - versions {1.21.1}
+[12Jul2025 18:26:46.125] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/Pixlemon-MC/MC-Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[12Jul2025 18:26:46.128] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar
+[12Jul2025 18:26:46.135] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-21.1.172-universal.jar with {neoforge} mods - versions {21.1.172}
+[12Jul2025 18:26:46.135] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[3,]]]
+[12Jul2025 18:26:46.138] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=neoforge.mixins.json, requiredMods=[]]
+[12Jul2025 18:26:46.138] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/Pixlemon-MC/MC-Server/mods/Pixelmon-1.21.1-9.3.5-universal.jar
+[12Jul2025 18:26:46.146] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file Pixelmon-1.21.1-9.3.5-universal.jar with {pixelmon,tcg} mods - versions {9.3.5,9.3.5}
+[12Jul2025 18:26:46.146] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/Pixlemon-MC/MC-Server/mods/Pixelmon-1.21.1-9.3.5-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[4,)]]
+[12Jul2025 18:26:46.147] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config MixinConfig[config=mixins.pixelmon.json, requiredMods=[]]
+[12Jul2025 18:26:46.147] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[12Jul2025 18:26:46.148] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 4 mod files with 4 mods
+[12Jul2025 18:26:46.149] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[12Jul2025 18:26:46.164] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 3 implementations of IModLanguageLoader:
+[12Jul2025 18:26:46.165] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider from loader-4.0.39.jar
+[12Jul2025 18:26:46.165] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.lowcodemod.LowCodeModLanguageProvider from loader-4.0.39.jar
+[12Jul2025 18:26:46.166] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.fml.mclanguageprovider.MinecraftModLanguageProvider from loader-4.0.39.jar
+[12Jul2025 18:26:46.166] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider javafml, version 4.0.39
+[12Jul2025 18:26:46.167] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider lowcodefml, version 4.0.39
+[12Jul2025 18:26:46.167] [main/DEBUG] [net.neoforged.fml.loading.LanguageProviderLoader/CORE]: Found language provider minecraft, version 4.0.39
+[12Jul2025 18:26:46.173] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[12Jul2025 18:26:46.173] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[12Jul2025 18:26:46.173] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[12Jul2025 18:26:46.176] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 3 mod requirements (3 mandatory, 0 optional)
+[12Jul2025 18:26:46.177] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[12Jul2025 18:26:46.203] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/Pixlemon-MC/MC-Server/libraries/net/neoforged/neoforge/21.1.172/neoforge-21.1.172-universal.jar
+[12Jul2025 18:26:46.219] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[12Jul2025 18:26:46.583] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[12Jul2025 18:26:46.586] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/Pixlemon-MC/MC-Server/mods/Pixelmon-1.21.1-9.3.5-universal.jar
+[12Jul2025 18:26:46.587] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[12Jul2025 18:26:46.618] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[12Jul2025 18:26:46.625] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.626] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.626] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.628] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.628] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.628] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.629] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5
+[12Jul2025 18:26:46.653] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[12Jul2025 18:26:46.653] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[12Jul2025 18:26:46.654] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[12Jul2025 18:26:46.654] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[12Jul2025 18:26:46.654] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/LOADING]: Loading coremod transformers
+[12Jul2025 18:26:46.654] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Not loading coremod script-engine since no mod requested it
+[12Jul2025 18:26:46.655] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: Found 1 implementations of ICoreMod:
+[12Jul2025 18:26:46.658] [main/DEBUG] [net.neoforged.fml.util.ServiceLoaderUtil/CORE]: 	net.neoforged.neoforge.coremods.NeoForgeCoreMod from neoforge-21.1.172-universal.jar > net.neoforged.neoforge-coremods-21.1.172.jar
+[12Jul2025 18:26:46.670] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.biome.Biome, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@383790cf in neoforge-21.1.172-universal.jar > net.neoforged.neoforge-coremods-21.1.172.jar
+[12Jul2025 18:26:46.671] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.levelgen.structure.Structure, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@383790cf in neoforge-21.1.172-universal.jar > net.neoforged.neoforge-coremods-21.1.172.jar
+[12Jul2025 18:26:46.671] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net.minecraft.world.level.block.FlowerPotBlock, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@383790cf in neoforge-21.1.172-universal.jar > net.neoforged.neoforge-coremods-21.1.172.jar
+[12Jul2025 18:26:46.672] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Adding [Target[className=net/minecraft/server/commands/RaidCommand, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/monster/ZombieVillager, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/animal/frog/Tadpole, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/NaturalSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/raid/Raid, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/monster/Spider, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/monster/Zombie, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/EntityType, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/npc/Villager, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/animal/horse/SkeletonTrapGoal, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/npc/CatSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/PhantomSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/server/commands/SummonCommand, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/ai/village/VillageSiege, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/entity/monster/Strider, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5], Target[className=net/minecraft/world/level/levelgen/PatrolSpawner, elementName=, elementDescriptor=, targetType=cpw.mods.modlauncher.api.TargetType@484094a5]] transformer from core-mod net.neoforged.neoforge.coremods.NeoForgeCoreMod@383790cf in neoforge-21.1.172-universal.jar > net.neoforged.neoforge-coremods-21.1.172.jar
+[12Jul2025 18:26:46.673] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@3eed0f5 to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[12Jul2025 18:26:46.682] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@73a00e09 to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[12Jul2025 18:26:46.682] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.ReplaceFieldWithGetterAccess@26dcd8c0 to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[12Jul2025 18:26:46.683] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[12Jul2025 18:26:46.683] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[12Jul2025 18:26:46.683] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[12Jul2025 18:26:46.683] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[12Jul2025 18:26:46.683] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[12Jul2025 18:26:46.683] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[12Jul2025 18:26:46.687] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[12Jul2025 18:26:46.688] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.neoforge.coremods.MethodRedirector@66e889df to Target : cpw.mods.modlauncher.api.TargetType@484094a5 {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[12Jul2025 18:26:46.689] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[12Jul2025 18:26:47.119] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[12Jul2025 18:26:47.120] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5]
+[12Jul2025 18:26:47.121] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[12Jul2025 18:26:47.235] [main/DEBUG] [mixin/]: Compatibility level JAVA_21 specified by mixins.pixelmon.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[12Jul2025 18:26:47.247] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[12Jul2025 18:26:47.252] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[12Jul2025 18:26:47.252] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.253] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.254] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.254] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.254] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.254] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.254] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixin_synthetic)
+[12Jul2025 18:26:47.255] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[12Jul2025 18:26:47.255] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[12Jul2025 18:26:47.257] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[12Jul2025 18:26:47.257] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[12Jul2025 18:26:47.257] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[12Jul2025 18:26:47.257] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[12Jul2025 18:26:47.257] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[12Jul2025 18:26:47.257] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[12Jul2025 18:26:47.258] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(neoforge)
+[12Jul2025 18:26:47.260] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[12Jul2025 18:26:47.261] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.261] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.261] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.261] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.261] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.264] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.264] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.264] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(pixelmon)]
+[12Jul2025 18:26:47.264] [main/DEBUG] [mixin/]: Registering mixin config: mixins.pixelmon.json source=SecureJarResource(pixelmon)
+[12Jul2025 18:26:47.265] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.265] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.265] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.265] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.265] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.265] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.266] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.266] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[12Jul2025 18:26:47.266] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json source=SecureJarResource(mixinextras.neoforge)
+[12Jul2025 18:26:47.272] [main/DEBUG] [mixin/]: inject() running with 7 agents
+[12Jul2025 18:26:47.272] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[12Jul2025 18:26:47.272] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@5aae8eb5]
+[12Jul2025 18:26:47.272] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[12Jul2025 18:26:47.272] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixin_synthetic)]
+[12Jul2025 18:26:47.273] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[12Jul2025 18:26:47.273] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[12Jul2025 18:26:47.273] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(pixelmon)]
+[12Jul2025 18:26:47.273] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[12Jul2025 18:26:47.273] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[12Jul2025 18:26:47.413] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[12Jul2025 18:26:47.423] [main/DEBUG] [mixin/]: Selecting config neoforge.mixins.json
+[12Jul2025 18:26:47.437] [main/DEBUG] [mixin/]: Selecting config mixins.pixelmon.json
+[12Jul2025 18:26:47.443] [main/WARN] [mixin/]: Reference map 'pixelmon.refmap.json' for mixins.pixelmon.json could not be read. If this is a development environment you can ignore this message
+[12Jul2025 18:26:47.444] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[12Jul2025 18:26:47.562] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1) is taking over from null
+[12Jul2025 18:26:47.632] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[12Jul2025 18:26:47.637] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[12Jul2025 18:26:47.638] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[12Jul2025 18:26:47.643] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[12Jul2025 18:26:47.645] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[12Jul2025 18:26:47.652] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[12Jul2025 18:26:47.685] [main/DEBUG] [mixin/]: Preparing neoforge.mixins.json (2)
+[12Jul2025 18:26:47.712] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.entity.BlockEntityType INNERCLASS BlockEntitySupplier to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.756] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/entity/BlockEntityType to metadata cache
+[12Jul2025 18:26:47.775] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/core/MappedRegistry to metadata cache
+[12Jul2025 18:26:47.778] [main/DEBUG] [mixin/]: Preparing mixins.pixelmon.json (11)
+[12Jul2025 18:26:47.791] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.CakeBlock METHOD <init>(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.796] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/CakeBlock to metadata cache
+[12Jul2025 18:26:47.801] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/ComponentSerialization to metadata cache
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD ENTITY_COUNTER to access PROTECTED and LEAVE
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD level to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD yRot to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD xRot to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD onGround to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD dimensions to access PUBLIC and REMOVEFINAL
+[12Jul2025 18:26:47.822] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD eyeHeight to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.825] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getEncodeId()Ljava/lang/String; to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.825] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD setLevel(Lnet/minecraft/world/level/Level;)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.910] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/Entity to metadata cache
+[12Jul2025 18:26:47.914] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/gametest/framework/GameTestRegistry to metadata cache
+[12Jul2025 18:26:47.934] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD closeContainer()V to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.936] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD setShoulderEntityLeft(Lnet/minecraft/nbt/CompoundTag;)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.936] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.player.Player METHOD setShoulderEntityRight(Lnet/minecraft/nbt/CompoundTag;)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.972] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/player/Player to metadata cache
+[12Jul2025 18:26:47.983] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer INNERCLASS RespawnPosAngle to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.983] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer METHOD initMenu(Lnet/minecraft/world/inventory/AbstractContainerMenu;)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:47.984] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.server.level.ServerPlayer METHOD checkRidingStatistics(DDD)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.014] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/level/ServerPlayer to metadata cache
+[12Jul2025 18:26:48.016] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/MutableComponent to metadata cache
+[12Jul2025 18:26:48.020] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation FIELDWILDCARD to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.020] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation FIELD pathFinder to access PUBLIC and REMOVEFINAL
+[12Jul2025 18:26:48.022] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD createPath(Ljava/util/Set;IZIF)Lnet/minecraft/world/level/pathfinder/Path; to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD getGroundY(Lnet/minecraft/world/phys/Vec3;)D to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD followThePath()V to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD doStuckDetection(Lnet/minecraft/world/phys/Vec3;)V to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD getTempMobPos()Lnet/minecraft/world/phys/Vec3; to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD canUpdatePath()Z to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD trimPath()V to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.023] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.ai.navigation.PathNavigation METHOD canMoveDirectly(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z to access PUBLIC and LEAVE
+[12Jul2025 18:26:48.028] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/ai/navigation/PathNavigation to metadata cache
+[12Jul2025 18:26:48.030] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[12Jul2025 18:26:48.038] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/ComponentContents$Type to metadata cache
+[12Jul2025 18:26:48.039] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/chat/Style$Serializer to metadata cache
+[12Jul2025 18:26:48.040] [main/TRACE] [mixin/]: Added class metadata for com/mojang/serialization/codecs/RecordCodecBuilder$Instance to metadata cache
+[12Jul2025 18:26:48.043] [main/TRACE] [mixin/]: Added class metadata for com/mojang/datafixers/Products$P3 to metadata cache
+[12Jul2025 18:26:48.312] [main/TRACE] [mixin/]: Added class metadata for java/lang/invoke/MethodHandles$Lookup to metadata cache
+[12Jul2025 18:26:48.318] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/syncher/SynchedEntityData$Builder to metadata cache
+[12Jul2025 18:26:48.327] [main/DEBUG] [mixin/]: Prepared 10 mixins in 0.897 sec (89.7ms avg) (0ms load, 0ms transform, 0ms plugin)
+[12Jul2025 18:26:48.664] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[12Jul2025 18:26:48.675] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[12Jul2025 18:26:48.675] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[12Jul2025 18:26:48.855] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12Jul2025 18:26:48.857] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[12Jul2025 18:26:48.858] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[12Jul2025 18:26:48.863] [main/DEBUG] [mixin/]: Mixing MixinComponentSerialization from mixins.pixelmon.json into net.minecraft.network.chat.ComponentSerialization
+[12Jul2025 18:26:48.878] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$4(Lnet/minecraft/network/chat/Component;)Lcom/mojang/datafixers/util/Either; to md5f7c92$pixelmon$lambda$createCodec$4$0 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[12Jul2025 18:26:48.881] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$3(Lcom/mojang/datafixers/util/Either;)Lnet/minecraft/network/chat/Component; to md5f7c92$pixelmon$lambda$createCodec$3$1 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[12Jul2025 18:26:48.881] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$2(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component; to md5f7c92$pixelmon$lambda$createCodec$2$2 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[12Jul2025 18:26:48.881] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$1(Lcom/mojang/datafixers/util/Either;)Lnet/minecraft/network/chat/Component; to md5f7c92$pixelmon$lambda$createCodec$1$3 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[12Jul2025 18:26:48.881] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$createCodec$0(Lcom/mojang/serialization/MapCodec;Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App; to md5f7c92$pixelmon$lambda$createCodec$0$4 in mixins.pixelmon.json:MixinComponentSerialization from mod pixelmon
+[12Jul2025 18:26:49.494] [main/DEBUG] [mixin/]: Mixing MutableComponentAccessor from mixins.pixelmon.json into net.minecraft.network.chat.MutableComponent
+[12Jul2025 18:26:49.495] [main/DEBUG] [mixin/]: Renaming @Invoker method invokeConstructor(Lnet/minecraft/network/chat/ComponentContents;Ljava/util/List;Lnet/minecraft/network/chat/Style;)Lnet/minecraft/network/chat/MutableComponent; to invokeConstructor$pixelmon_$md$5f7c92$0 in mixins.pixelmon.json:MutableComponentAccessor from mod pixelmon
+[12Jul2025 18:26:49.592] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@388b401d
+[12Jul2025 18:26:49.593] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@378fd1ac
+[12Jul2025 18:26:49.708] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[12Jul2025 18:26:49.710] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[12Jul2025 18:26:49.717] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[12Jul2025 18:26:49.726] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[12Jul2025 18:26:49.726] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[12Jul2025 18:26:49.729] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[12Jul2025 18:26:49.729] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[12Jul2025 18:26:49.729] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[12Jul2025 18:26:49.730] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[12Jul2025 18:26:49.730] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[12Jul2025 18:26:49.735] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[12Jul2025 18:26:49.735] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[12Jul2025 18:26:49.735] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[12Jul2025 18:26:49.735] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[12Jul2025 18:26:49.736] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[12Jul2025 18:26:49.736] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[12Jul2025 18:26:49.736] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[12Jul2025 18:26:49.736] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[12Jul2025 18:26:49.739] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[12Jul2025 18:26:49.740] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[12Jul2025 18:26:49.741] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[12Jul2025 18:26:49.742] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[12Jul2025 18:26:49.742] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[12Jul2025 18:26:49.742] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[12Jul2025 18:26:49.742] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[12Jul2025 18:26:49.742] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[12Jul2025 18:26:49.743] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[12Jul2025 18:26:49.744] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[12Jul2025 18:26:49.747] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[12Jul2025 18:26:49.748] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[12Jul2025 18:26:49.748] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[12Jul2025 18:26:49.749] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[12Jul2025 18:26:49.749] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[12Jul2025 18:26:49.750] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[12Jul2025 18:26:49.750] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[12Jul2025 18:26:49.751] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[12Jul2025 18:26:49.751] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[12Jul2025 18:26:49.751] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[12Jul2025 18:26:49.752] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[12Jul2025 18:26:49.752] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[12Jul2025 18:26:49.753] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[12Jul2025 18:26:49.754] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[12Jul2025 18:26:49.755] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[12Jul2025 18:26:49.755] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[12Jul2025 18:26:49.756] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[12Jul2025 18:26:49.756] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[12Jul2025 18:26:49.757] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[12Jul2025 18:26:49.757] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[12Jul2025 18:26:49.757] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[12Jul2025 18:26:49.758] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[12Jul2025 18:26:49.758] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[12Jul2025 18:26:49.759] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[12Jul2025 18:26:49.762] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[12Jul2025 18:26:49.766] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[12Jul2025 18:26:49.768] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@388b401d
+[12Jul2025 18:26:49.768] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@378fd1ac
+[12Jul2025 18:26:49.791] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[12Jul2025 18:26:49.795] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[12Jul2025 18:26:49.906] [main/DEBUG] [mixin/]: Mixing MappedRegistryAccessor from neoforge.mixins.json into net.minecraft.core.MappedRegistry
+[12Jul2025 18:26:49.910] [main/DEBUG] [mixin/]: neoforge.mixins.json:MappedRegistryAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[12Jul2025 18:26:50.206] [main/DEBUG] [mixin/]: Mixing MixinEntity from mixins.pixelmon.json into net.minecraft.world.entity.Entity
+[12Jul2025 18:26:50.353] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinEntity from mod pixelmon->@Inject::onBuild(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V doesn't use it's CallbackInfo
+[12Jul2025 18:26:50.356] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinEntity from mod pixelmon->@Inject::onBuild(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V has 0 override(s) in child classes
+[12Jul2025 18:26:50.356] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinEntity from mod pixelmon->@Inject::onBuild(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/Level;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/network/syncher/SynchedEntityData$Builder;)V won't be passed a CallbackInfo as a result
+[12Jul2025 18:26:50.442] [main/DEBUG] [mixin/]: Mixing MixinPlayer from mixins.pixelmon.json into net.minecraft.world.entity.player.Player
+[12Jul2025 18:26:51.425] [main/DEBUG] [mixin/]: Mixing MixinCakeBlock from mixins.pixelmon.json into net.minecraft.world.level.block.CakeBlock
+[12Jul2025 18:26:51.471] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinCakeBlock from mod pixelmon->@Inject::onEat(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/entity/player/Player;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V doesn't use it's CallbackInfoReturnable
+[12Jul2025 18:26:52.346] [main/DEBUG] [mixin/]: Mixing BlockEntityTypeAccessor from neoforge.mixins.json into net.minecraft.world.level.block.entity.BlockEntityType
+[12Jul2025 18:26:52.348] [main/DEBUG] [mixin/]: neoforge.mixins.json:BlockEntityTypeAccessor from mod neoforge: Class version 65 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[12Jul2025 18:26:53.905] [main/DEBUG] [mixin/]: Mixing MixinServerPlayer from mixins.pixelmon.json into net.minecraft.server.level.ServerPlayer
+[12Jul2025 18:26:53.908] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getResearch$2(Lcom/pixelmonmod/pixelmon/api/storage/research/ResearchStorage;)Lcom/pixelmonmod/pixelmon/api/storage/research/ResearchStorage; to md5f7c92$pixelmon$lambda$getResearch$2$0 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[12Jul2025 18:26:53.909] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getBankAccount$1(Lcom/pixelmonmod/pixelmon/api/economy/BankAccount;)Lcom/pixelmonmod/pixelmon/api/economy/BankAccount; to md5f7c92$pixelmon$lambda$getBankAccount$1$1 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[12Jul2025 18:26:53.916] [main/DEBUG] [mixin/]: Renaming synthetic method lambda$getParty$0(Lcom/pixelmonmod/pixelmon/api/storage/PlayerPartyStorage;)Lcom/pixelmonmod/pixelmon/api/storage/PlayerPartyStorage; to md5f7c92$pixelmon$lambda$getParty$0$2 in mixins.pixelmon.json:MixinServerPlayer from mod pixelmon
+[12Jul2025 18:26:53.967] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinServerPlayer from mod pixelmon->@Inject::onCraft(Lnet/minecraft/world/item/crafting/RecipeHolder;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[12Jul2025 18:26:53.968] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinServerPlayer from mod pixelmon->@Inject::onCraft(Lnet/minecraft/world/item/crafting/RecipeHolder;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[12Jul2025 18:26:53.968] [main/DEBUG] [mixin/]: mixins.pixelmon.json:MixinServerPlayer from mod pixelmon->@Inject::onCraft(Lnet/minecraft/world/item/crafting/RecipeHolder;Ljava/util/List;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[12Jul2025 18:26:55.185] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[12Jul2025 18:26:55.185] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[12Jul2025 18:26:55.186] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[12Jul2025 18:26:55.187] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[12Jul2025 18:26:55.187] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[12Jul2025 18:26:55.188] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[12Jul2025 18:26:55.189] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[12Jul2025 18:26:55.192] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[12Jul2025 18:26:55.192] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[12Jul2025 18:26:55.193] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 2082471936 bytes (maybe)
+[12Jul2025 18:26:55.193] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[12Jul2025 18:26:55.193] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[12Jul2025 18:26:55.194] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[12Jul2025 18:26:55.194] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[12Jul2025 18:26:55.196] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[12Jul2025 18:26:55.196] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[12Jul2025 18:26:55.479] [main/DEBUG] [mixin/]: Mixing PathFinderAccessor from mixins.pixelmon.json into net.minecraft.world.entity.ai.navigation.PathNavigation
+[12Jul2025 18:26:59.360] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 2 threads for parallel mod-loading
+[12Jul2025 18:26:59.373] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [net.neoforged.neoforge.common.NeoForgeMod]
+[12Jul2025 18:26:59.381] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.pixelmonmod.pixelmon.Pixelmon]
+[12Jul2025 18:26:59.386] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for [com.pixelmonmod.tcg.TCG]
+[12Jul2025 18:26:59.403] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.408] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.410] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.412] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.412] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.417] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class com.pixelmonmod.pixelmon.listener.EntityPlayerExtension
+[12Jul2025 18:26:59.434] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 21.1.172
+[12Jul2025 18:26:59.434] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found FML version 4.0.39
+[12Jul2025 18:26:59.435] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.172, for MC 1.21.1
+[12Jul2025 18:26:59.487] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[12Jul2025 18:26:59.487] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[12Jul2025 18:26:59.487] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-common.toml for neoforge tracking
+[12Jul2025 18:26:59.572] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[12Jul2025 18:26:59.576] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[12Jul2025 18:26:59.764] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[12Jul2025 18:26:59.764] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[12Jul2025 18:26:59.767] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@5e7129da
+[12Jul2025 18:26:59.789] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[12Jul2025 18:26:59.789] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 4
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 4
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[12Jul2025 18:26:59.796] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[12Jul2025 18:26:59.801] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[12Jul2025 18:26:59.822] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[12Jul2025 18:26:59.822] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[12Jul2025 18:26:59.822] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[12Jul2025 18:26:59.839] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[12Jul2025 18:26:59.840] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[12Jul2025 18:26:59.844] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.MonsterRoomHooks to GAME
+[12Jul2025 18:26:59.845] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[12Jul2025 18:26:59.847] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to GAME
+[12Jul2025 18:27:01.537] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for pixelmon
+[12Jul2025 18:27:01.538] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.storage.extras.PixelExtrasStorage to GAME
+[12Jul2025 18:27:01.541] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.listener.ZygardeCellsListener to GAME
+[12Jul2025 18:27:01.548] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.items.armor.armoreffects.ThunderstoneEffect to GAME
+[12Jul2025 18:27:01.548] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.items.EscapeRopeItem to GAME
+[12Jul2025 18:27:01.555] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.init.registry.PixelmonRegistry to MOD
+[12Jul2025 18:27:01.557] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.init.registry.ContainerRegistration to MOD
+[12Jul2025 18:27:01.557] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.init.loaders.PixelmonLoaders to GAME
+[12Jul2025 18:27:01.561] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.client.listener.StorageCloseListener to GAME
+[12Jul2025 18:27:01.564] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.util.helpers.WorldHelper to GAME
+[12Jul2025 18:27:01.565] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.util.helpers.PlayerHelper to GAME
+[12Jul2025 18:27:01.566] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.util.AirSaver to GAME
+[12Jul2025 18:27:01.567] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.spawning.util.SpawningHeightmap to GAME
+[12Jul2025 18:27:01.569] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.api.config.RegistryHandler to GAME
+[12Jul2025 18:27:01.570] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.pixelmon.CommonProxy to MOD
+[12Jul2025 18:27:01.591] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for tcg
+[12Jul2025 18:27:01.592] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing com.pixelmonmod.tcg.init.registry.TCGRegistry to MOD
+[12Jul2025 18:27:03.784] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:03.786] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:03.790] [modloading-sync-worker/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.npcs.NPC from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.399] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type COMMON
+[12Jul2025 18:27:04.417] [modloading-sync-worker/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-common.toml
+[12Jul2025 18:27:04.417] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file /workspaces/Pixlemon-MC/MC-Server/config/neoforge-common.toml
+[12Jul2025 18:27:04.423] [modloading-sync-worker/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file /workspaces/Pixlemon-MC/MC-Server/config/neoforge-common.toml for changes
+[12Jul2025 18:27:04.425] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loading Pixelmon version 9.3.5
+[12Jul2025 18:27:04.431] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Loaded Advancements
+[12Jul2025 18:27:04.456] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[12Jul2025 18:27:04.493] [modloading-worker-0/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Started the async storage scheduler.
+[12Jul2025 18:27:04.668] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.669] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.670] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.672] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.672] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.675] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.675] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.676] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.677] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.678] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.679] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.682] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.702] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.703] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.705] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.705] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.706] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.709] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.710] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBaseEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.712] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.715] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.716] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.717] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.718] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.719] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.719] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[12Jul2025 18:27:04.720] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.726] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.726] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.727] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractClientEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.728] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractInteractionsEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.728] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractBattleEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.732] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.732] [modloading-worker-0/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.pixelmonmod.pixelmon.entities.pixelmon.AbstractMovesEntity from class com.pixelmonmod.pixelmon.api.data.DataSync
+[12Jul2025 18:27:04.760] [modloading-worker-0/INFO] [Pixelmon TCG/]: Loading TCG version 9.3.5
+[12Jul2025 18:27:04.785] [modloading-worker-0/INFO] [Pixelmon TCG/]: Initializing Pixelmon TCG v9.3.5
+[12Jul2025 18:27:04.787] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Dispatching synchronous work for work queue Common setup: 2 jobs
+[12Jul2025 18:27:04.790] [modloading-sync-worker/DEBUG] [net.neoforged.fml.DeferredWorkQueue/LOADING]: Synchronous work queue completed in 2.289 ms
+[12Jul2025 18:27:05.381] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12Jul2025 18:27:05.420] [NeoForge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [pixelmon] Received version check data:
+{
+  "homepage": "https://pixelmonmod.com/",
+  "1.12.2": {
+    "6.0.0": "Released Pixelmon", 
+    "6.0.1": "Bug fix update.",
+    "6.2.0": "The Power Update",
+    "6.2.1": "Bug fix update",
+    "6.2.2": "Performace update",
+    "6.2.3": "The toaster performance update",
+    "6.3.0": "The Legendary Update",
+    "6.3.1": "Bug fix update",
+    "6.3.2": "Bug fix update",
+    "6.3.3": "Bug fix update",
+    "6.3.4": "Hotfix update",
+    "7.0.0": "Generation 7 update",
+    "7.0.1": "Bug fix update",
+    "7.0.2": "Bug fix update",
+    "7.0.3": "Crash fix",
+    "7.0.4": "Bug fix update",
+    "7.0.5": "They're no longer bugs. All hail Buzzwole.",
+    "7.0.6": "Two words: Legendary apocalypse",
+    "7.0.7": "Now with... Smart phones?",
+    "7.0.8": "A few more fixes before 7.1!",
+    "7.1.0": "The Integration Update",
+    "7.3.0": "Bye-Bye Pixelmon 7",
+    "7.3.1": "Bye-Bye Pixelmon 7",
+    "8.0.0": "Generation 8",
+    "8.0.2": "Generation 8",
+    "8.1.0": "A Sweet Update",
+    "8.1.1": "A Sweet Update",
+    "8.1.2": "A Sweet Update",
+    "8.2.0": "Something's different",
+    "8.3.0": "Vikings, probably",
+    "8.3.1": "Soup-er Spooky",
+    "8.3.2": "Sheep Starvation",
+    "8.3.3": "Sheep Starvation",
+    "8.3.4": "Forms, fixes and... spikey hair?",
+    "8.3.5": "Waiting....",
+    "8.3.6": "Spin, spin spin...",
+    "8.3.7": "Models, bugfixes and PL Pixelmon",
+    "8.3.8": "New voices!",
+    "8.4.0": "https://www.youtube.com/watch?v=SFkdcQgNJHo",
+    "8.4.1": "The essence of the update",
+    "8.4.2": "A Love/Hate relationship :)",
+    "8.4.3": "There are DOZENS of us, DOZENS!"
+  },
+  "1.16.5": {
+    "9.0.0": "Happy New Year!",
+    "9.0.1": "Great. Now we vampires...",
+    "9.0.2": "It's Hammertime....",
+    "9.0.3": "The loot is on fire",
+    "9.0.4": "Hoooooow Original...",
+    "9.0.5": "Don't worry, Bee happy :)",
+    "9.0.6": "Look up:)",
+    "9.0.7": "Your Daycare and You...",
+    "9.0.8": "Something about having a blast",
+    "9.0.9": "You have mail!",
+    "9.0.10": "GO GO GO!",
+    "9.0.11": "Swim Safely!",
+    "9.1.0": "Pick a card :)",
+    "9.1.1": "Pretty Ribbons and Wings...",
+	"9.1.2": "I already made a flight pun this week :(",
+	"9.1.3": "Love is in the Pokedex!",
+	"9.1.4": "Smol update",
+	"9.1.5": "Rainbows, but a lack of kittens",
+	"9.1.6": "9.1.6",
+	"9.1.7": "Insert Lost Woods bgm",
+	"9.1.8": "Witch version?",
+	"9.1.9": "Pumpkin...",
+	"9.1.10": "Splash!",
+	"9.1.11": "Bark Bark Bark",
+	"9.1.12": "9.1.12",
+	"9.1.13": "9.1.13"
+  },
+  "1.20.1": {
+    "9.2.0": "They have those cherry trees don't they? - Jay 2023",
+    "9.2.1": "1.20.1 (Alpha 2)",
+    "9.2.2": "1.20.1 (Alpha 3)",
+    "9.2.3": "1.20.1 (Alpha 4)"
+  },
+  "1.20.2": {
+    "9.2.4": "1.20.2 (Alpha 4)",
+    "9.2.5": "1.20.2 (Alpha 5)",
+    "9.2.6": "1.20.2 (Alpha 6)",
+    "9.2.7": "1.20.2 (Alpha 7)",
+    "9.2.8": "1.20.2 (Alpha 8)",
+    "9.2.9": "1.20.2 (Alpha 9)",
+    "9.2.10": "1.20.2 (Alpha 10)"
+  },
+  "1.21.1": {
+    "9.3.0": "1.21.1 NeoForge Initial",
+    "9.3.1": "9.3.1",
+    "9.3.2": "9.3.2",
+    "9.3.3": "9.3.3",
+    "9.3.4": "9.3.4",
+    "9.3.5": "9.3.5"
+  },
+  "promos": {
+    "1.21.1-latest": "9.3.5",
+    "1.21.1-recommended": "9.3.5",
+    "1.20.2-latest": "9.3.5",
+    "1.20.2-recommended": "9.2.10",
+    "1.20.1-latest": "9.3.5",
+    "1.20.1-recommended": "9.2.5",
+    "1.16.5-latest": "9.3.5",
+    "1.16.5-recommended": "9.1.13",
+    "1.12.2-latest": "9.3.5",
+    "1.12.2-recommended": "8.4.3"
+  }
+}
+[12Jul2025 18:27:05.422] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [pixelmon] Found status: UP_TO_DATE Current: 9.3.5 Target: null
+[12Jul2025 18:27:05.430] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Starting version check at https://ogn.pixelmonmod.com/v/update.json
+[12Jul2025 18:27:05.449] [NeoForge Version Check/DEBUG] [net.neoforged.fml.VersionChecker/]: [tcg] Received version check data:
+{
+  "homepage": "https://pixelmonmod.com/",
+  "1.12.2": {
+    "6.0.0": "Released Pixelmon", 
+    "6.0.1": "Bug fix update.",
+    "6.2.0": "The Power Update",
+    "6.2.1": "Bug fix update",
+    "6.2.2": "Performace update",
+    "6.2.3": "The toaster performance update",
+    "6.3.0": "The Legendary Update",
+    "6.3.1": "Bug fix update",
+    "6.3.2": "Bug fix update",
+    "6.3.3": "Bug fix update",
+    "6.3.4": "Hotfix update",
+    "7.0.0": "Generation 7 update",
+    "7.0.1": "Bug fix update",
+    "7.0.2": "Bug fix update",
+    "7.0.3": "Crash fix",
+    "7.0.4": "Bug fix update",
+    "7.0.5": "They're no longer bugs. All hail Buzzwole.",
+    "7.0.6": "Two words: Legendary apocalypse",
+    "7.0.7": "Now with... Smart phones?",
+    "7.0.8": "A few more fixes before 7.1!",
+    "7.1.0": "The Integration Update",
+    "7.3.0": "Bye-Bye Pixelmon 7",
+    "7.3.1": "Bye-Bye Pixelmon 7",
+    "8.0.0": "Generation 8",
+    "8.0.2": "Generation 8",
+    "8.1.0": "A Sweet Update",
+    "8.1.1": "A Sweet Update",
+    "8.1.2": "A Sweet Update",
+    "8.2.0": "Something's different",
+    "8.3.0": "Vikings, probably",
+    "8.3.1": "Soup-er Spooky",
+    "8.3.2": "Sheep Starvation",
+    "8.3.3": "Sheep Starvation",
+    "8.3.4": "Forms, fixes and... spikey hair?",
+    "8.3.5": "Waiting....",
+    "8.3.6": "Spin, spin spin...",
+    "8.3.7": "Models, bugfixes and PL Pixelmon",
+    "8.3.8": "New voices!",
+    "8.4.0": "https://www.youtube.com/watch?v=SFkdcQgNJHo",
+    "8.4.1": "The essence of the update",
+    "8.4.2": "A Love/Hate relationship :)",
+    "8.4.3": "There are DOZENS of us, DOZENS!"
+  },
+  "1.16.5": {
+    "9.0.0": "Happy New Year!",
+    "9.0.1": "Great. Now we vampires...",
+    "9.0.2": "It's Hammertime....",
+    "9.0.3": "The loot is on fire",
+    "9.0.4": "Hoooooow Original...",
+    "9.0.5": "Don't worry, Bee happy :)",
+    "9.0.6": "Look up:)",
+    "9.0.7": "Your Daycare and You...",
+    "9.0.8": "Something about having a blast",
+    "9.0.9": "You have mail!",
+    "9.0.10": "GO GO GO!",
+    "9.0.11": "Swim Safely!",
+    "9.1.0": "Pick a card :)",
+    "9.1.1": "Pretty Ribbons and Wings...",
+	"9.1.2": "I already made a flight pun this week :(",
+	"9.1.3": "Love is in the Pokedex!",
+	"9.1.4": "Smol update",
+	"9.1.5": "Rainbows, but a lack of kittens",
+	"9.1.6": "9.1.6",
+	"9.1.7": "Insert Lost Woods bgm",
+	"9.1.8": "Witch version?",
+	"9.1.9": "Pumpkin...",
+	"9.1.10": "Splash!",
+	"9.1.11": "Bark Bark Bark",
+	"9.1.12": "9.1.12",
+	"9.1.13": "9.1.13"
+  },
+  "1.20.1": {
+    "9.2.0": "They have those cherry trees don't they? - Jay 2023",
+    "9.2.1": "1.20.1 (Alpha 2)",
+    "9.2.2": "1.20.1 (Alpha 3)",
+    "9.2.3": "1.20.1 (Alpha 4)"
+  },
+  "1.20.2": {
+    "9.2.4": "1.20.2 (Alpha 4)",
+    "9.2.5": "1.20.2 (Alpha 5)",
+    "9.2.6": "1.20.2 (Alpha 6)",
+    "9.2.7": "1.20.2 (Alpha 7)",
+    "9.2.8": "1.20.2 (Alpha 8)",
+    "9.2.9": "1.20.2 (Alpha 9)",
+    "9.2.10": "1.20.2 (Alpha 10)"
+  },
+  "1.21.1": {
+    "9.3.0": "1.21.1 NeoForge Initial",
+    "9.3.1": "9.3.1",
+    "9.3.2": "9.3.2",
+    "9.3.3": "9.3.3",
+    "9.3.4": "9.3.4",
+    "9.3.5": "9.3.5"
+  },
+  "promos": {
+    "1.21.1-latest": "9.3.5",
+    "1.21.1-recommended": "9.3.5",
+    "1.20.2-latest": "9.3.5",
+    "1.20.2-recommended": "9.2.10",
+    "1.20.1-latest": "9.3.5",
+    "1.20.1-recommended": "9.2.5",
+    "1.16.5-latest": "9.3.5",
+    "1.16.5-recommended": "9.1.13",
+    "1.12.2-latest": "9.3.5",
+    "1.12.2-recommended": "8.4.3"
+  }
+}
+[12Jul2025 18:27:05.449] [NeoForge Version Check/INFO] [net.neoforged.fml.VersionChecker/]: [tcg] Found status: UP_TO_DATE Current: 9.3.5 Target: null
+[12Jul2025 18:27:05.587] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Pixlemon-MC/MC-Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23118!/assets/.mcassetsroot' uses unexpected schema
+[12Jul2025 18:27:05.588] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/Pixlemon-MC/MC-Server/libraries/net/minecraft/server/1.21.1-20240808.144430/server-1.21.1-20240808.144430-srg.jar%23118!/data/.mcassetsroot' uses unexpected schema
+[12Jul2025 18:27:09.590] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag pixelmon:spawning/drowned as it is missing following references: 
+	pixelmon:drowned_crimson (from mod/pixelmon,tcg)
+	pixelmon:drowned_dark (from mod/pixelmon,tcg)
+	pixelmon:drowned_warm (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.674] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:types/pokemon/basep as it is missing following references: 
+	tcg:basep-3 (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.677] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:pokemon as it is missing following references: 
+	#tcg:types/pokemon/basep (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.677] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:types/basic/basep as it is missing following references: 
+	tcg:basep-3 (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.677] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:basic as it is missing following references: 
+	#tcg:types/basic/basep (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.678] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:basep as it is missing following references: 
+	tcg:basep-3 (from mod/pixelmon,tcg)
+[12Jul2025 18:27:09.679] [Worker-Main-1/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag tcg:trainer as it is missing following references: 
+	#tcg:basep (from mod/pixelmon,tcg)
+[12Jul2025 18:27:10.871] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 2451 recipes
+[12Jul2025 18:27:11.366] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 2480 advancements
+[12Jul2025 18:27:12.979] [main/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Ivy Cudgel
+[12Jul2025 18:27:13.342] [main/WARN] [com.pixelmonmod.pixelmon.Pixelmon/]: Attack name invalid: Tera Starstorm
+[12Jul2025 18:27:15.724] [main/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Registering Better Spawner.
+[12Jul2025 18:27:24.359] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / tcg:card/card] are present in data pack: tcg:basep
+[12Jul2025 18:27:25.198] [main/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2025 18:27:25.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[12Jul2025 18:27:25.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[12Jul2025 18:27:25.247] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[12Jul2025 18:27:25.248] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[12Jul2025 18:27:25.468] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[12Jul2025 18:27:25.471] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[12Jul2025 18:27:25.479] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.workdir: /tmp (io.netty.tmpdir)
+[12Jul2025 18:27:25.480] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.deleteLibAfterLoading: true
+[12Jul2025 18:27:25.480] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.tryPatchShadedId: true
+[12Jul2025 18:27:25.480] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: -Dio.netty.native.detectNativeLibraryDuplicates: true
+[12Jul2025 18:27:25.487] [Server thread/DEBUG] [io.netty.util.internal.NativeLibraryLoader/]: Successfully loaded the library /tmp/libnetty_transport_native_epoll_x86_6415611534753684116928.so
+[12Jul2025 18:27:25.490] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv4Stack: false
+[12Jul2025 18:27:25.490] [Server thread/DEBUG] [io.netty.util.NetUtil/]: -Djava.net.preferIPv6Addresses: true
+[12Jul2025 18:27:25.492] [Server thread/DEBUG] [io.netty.util.NetUtilInitializations/]: Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+[12Jul2025 18:27:25.493] [Server thread/DEBUG] [io.netty.util.NetUtil/]: /proc/sys/net/core/somaxconn: 4096
+[12Jul2025 18:27:25.498] [Server thread/DEBUG] [io.netty.channel.MultithreadEventLoopGroup/]: -Dio.netty.eventLoopThreads: 4
+[12Jul2025 18:27:25.507] [Server thread/DEBUG] [io.netty.util.concurrent.GlobalEventExecutor/]: -Dio.netty.globalEventExecutor.quietPeriodSeconds: 1
+[12Jul2025 18:27:25.521] [Server thread/DEBUG] [io.netty.util.internal.PlatformDependent/]: org.jctools-core.MpscChunkedArrayQueue: available
+[12Jul2025 18:27:25.530] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[12Jul2025 18:27:25.559] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.processId: 16672 (auto-detected)
+[12Jul2025 18:27:25.560] [Server thread/DEBUG] [io.netty.channel.DefaultChannelId/]: -Dio.netty.machineId: 60:45:bd:ff:fe:11:2d:bf (auto-detected)
+[12Jul2025 18:27:25.654] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loading configs type SERVER
+[12Jul2025 18:27:25.656] [Server thread/DEBUG] [net.neoforged.neoforge.common.NeoForgeConfig/FORGEMOD]: Loaded NeoForge config file neoforge-server.toml
+[12Jul2025 18:27:25.656] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Loaded TOML config file /workspaces/Pixlemon-MC/MC-Server/config/neoforge-server.toml
+[12Jul2025 18:27:25.656] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Watching TOML config file /workspaces/Pixlemon-MC/MC-Server/config/neoforge-server.toml for changes
+[12Jul2025 18:27:25.759] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[12Jul2025 18:27:40.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[12Jul2025 18:27:41.199] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2025 18:27:41.201] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2025 18:27:41.313] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[12Jul2025 18:27:41.561] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1251 ms
+[12Jul2025 18:27:41.563] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.909s)! For help, type "help"
+[12Jul2025 18:27:41.580] [Server thread/DEBUG] [net.neoforged.neoforge.network.DualStackUtils/]: Detected IPv6 address: "0:0:0:0:0:0:0:0"
+[12Jul2025 18:27:41.775] [Server thread/DEBUG] [net.neoforged.neoforge.server.LanguageHook/]: Loaded 5 language files for en_us
+[12Jul2025 18:27:41.804] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[12Jul2025 18:27:41.827] [Server thread/INFO] [com.pixelmonmod.pixelmon.Pixelmon/]: Datapacks found: vanilla,mod_data,mod/neoforge,mod/pixelmon,tcg
+[12Jul2025 18:27:41.923] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[12Jul2025 18:27:41.945] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[12Jul2025 18:27:41.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[12Jul2025 18:27:41.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[12Jul2025 18:27:42.870] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12Jul2025 18:27:42.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/pixelmon:debug
+[12Jul2025 18:27:43.020] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/pixelmon:ultra_space
+[12Jul2025 18:27:43.024] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[12Jul2025 18:27:43.031] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[12Jul2025 18:27:43.037] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2025 18:27:43.045] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jul2025 18:27:43.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (debug): All chunks are saved
+[12Jul2025 18:27:43.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (ultra_space): All chunks are saved
+[12Jul2025 18:27:43.048] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jul2025 18:27:43.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jul2025 18:27:43.049] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Jul2025 18:27:43.063] [Server thread/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
