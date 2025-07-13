@@ -7,19 +7,25 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:snowy_slopes": "2025-07-13 12:55:07 +0000",
       "minecraft:beach": "2025-07-12 22:31:16 +0000",
       "minecraft:dark_forest": "2025-07-12 23:17:42 +0000",
       "minecraft:forest": "2025-07-12 21:41:41 +0000",
       "minecraft:taiga": "2025-07-12 21:30:38 +0000",
+      "minecraft:deep_ocean": "2025-07-13 12:51:31 +0000",
       "minecraft:river": "2025-07-12 22:26:06 +0000",
       "minecraft:stony_shore": "2025-07-12 23:13:08 +0000",
+      "minecraft:snowy_plains": "2025-07-13 13:20:34 +0000",
       "minecraft:frozen_peaks": "2025-07-12 23:03:50 +0000",
+      "minecraft:ice_spikes": "2025-07-13 13:20:33 +0000",
       "minecraft:old_growth_birch_forest": "2025-07-12 23:18:29 +0000",
+      "minecraft:frozen_river": "2025-07-13 13:20:47 +0000",
       "minecraft:ocean": "2025-07-12 23:12:19 +0000",
       "minecraft:grove": "2025-07-12 23:09:19 +0000",
       "minecraft:meadow": "2025-07-12 22:05:35 +0000",
       "minecraft:birch_forest": "2025-07-12 23:14:22 +0000",
-      "minecraft:plains": "2025-07-13 09:19:57 +0000"
+      "minecraft:plains": "2025-07-13 09:19:57 +0000",
+      "minecraft:jagged_peaks": "2025-07-13 12:55:09 +0000"
     },
     "done": false
   },
@@ -4502,18 +4508,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_helmet": {
-    "criteria": {
-      "has_leather": "2025-07-13 09:48:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_leggings": {
-    "criteria": {
-      "has_leather": "2025-07-13 09:48:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_leggings": {
     "criteria": {
       "has_diamond": "2025-07-13 09:18:05 +0000"
@@ -4538,69 +4532,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/beetroot_soup": {
-    "criteria": {
-      "has_beetroot": "2025-07-13 09:50:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-13 09:49:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/leather_chestplate": {
-    "criteria": {
-      "has_leather": "2025-07-13 09:48:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/brewing/golden_carrot": {
-    "criteria": {
-      "has_gold_nugget": "2025-07-13 09:49:04 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/diamond_pickaxe": {
     "criteria": {
       "has_diamond": "2025-07-13 09:18:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/brown_glazed_terracotta": {
-    "criteria": {
-      "has_brown_terracotta": "2025-07-13 09:48:36 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bone_meal": {
-    "criteria": {
-      "has_bone": "2025-07-13 09:45:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/packed_mud": {
-    "criteria": {
-      "has_mud": "2025-07-13 09:42:25 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/bread": {
-    "criteria": {
-      "has_wheat": "2025-07-13 09:50:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/hay_block": {
-    "criteria": {
-      "has_wheat": "2025-07-13 09:50:17 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/leather_horse_armor": {
-    "criteria": {
-      "has_leather": "2025-07-13 09:48:34 +0000"
     },
     "done": true
   },
@@ -4622,24 +4556,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/red_dye_from_beetroot": {
-    "criteria": {
-      "has_beetroot": "2025-07-13 09:50:22 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/curry/brittle_bones": {
-    "criteria": {
-      "has_bone": "2025-07-13 09:45:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/item_frame": {
-    "criteria": {
-      "has_leather": "2025-07-13 09:48:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/diamond_helmet": {
     "criteria": {
       "has_diamond": "2025-07-13 09:18:05 +0000"
@@ -4652,21 +4568,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/leather_boots": {
-    "criteria": {
-      "has_leather": "2025-07-13 09:48:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/diamond_block": {
     "criteria": {
       "has_diamond": "2025-07-13 09:18:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/wheat": {
-    "criteria": {
-      "has_hay_block": "2025-07-13 09:49:58 +0000"
     },
     "done": true
   },
@@ -4679,6 +4583,300 @@
   "minecraft:recipes/tools/diamond_axe": {
     "criteria": {
       "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-07-13 09:42:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-13 09:45:01 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/curry/brittle_bones": {
+    "criteria": {
+      "has_bone": "2025-07-13 09:45:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-07-13 09:48:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-13 09:49:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-13 09:49:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-07-13 09:49:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-07-13 09:50:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-07-13 09:50:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-07-13 09:50:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-07-13 09:50:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/medicine/tapu_cocoa": {
+    "criteria": {
+      "has_moomoo_milk": "2025-07-13 11:54:57 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/purple_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/lime_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/light_gray_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/red_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/orange_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/black_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/yellow_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/green_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/pink_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/blue_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/brown_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/cyan_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/light_blue_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/gray_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/magenta_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/vending_machine/white_vending_machine": {
+    "criteria": {
+      "has_fresh_water": "2025-07-13 12:09:48 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/furnace/silver_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-07-13 12:23:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2025-07-13 12:24:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-13 12:37:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-13 12:37:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-07-13 12:37:25 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:balls/great_ball_capture": {
+    "criteria": {
+      "great_ball_capture": "2025-07-13 12:48:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-13 12:54:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-13 12:54:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2025-07-13 12:54:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_hanging_sign": {
+    "criteria": {
+      "has_stripped_logs": "2025-07-13 12:56:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stripped_oak_wood": {
+    "criteria": {
+      "has_log": "2025-07-13 12:56:04 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/infuser/ev_boost/hp_up": {
+    "criteria": {
+      "has_feather": "2025-07-13 12:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2025-07-13 13:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2025-07-13 13:07:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2025-07-13 13:07:20 +0000"
     },
     "done": true
   },
