@@ -7,18 +7,19 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:old_growth_birch_forest": "2025-07-12 23:18:29 +0000",
       "minecraft:beach": "2025-07-12 22:31:16 +0000",
       "minecraft:dark_forest": "2025-07-12 23:17:42 +0000",
       "minecraft:forest": "2025-07-12 21:41:41 +0000",
       "minecraft:taiga": "2025-07-12 21:30:38 +0000",
-      "minecraft:ocean": "2025-07-12 23:12:19 +0000",
       "minecraft:river": "2025-07-12 22:26:06 +0000",
+      "minecraft:stony_shore": "2025-07-12 23:13:08 +0000",
+      "minecraft:frozen_peaks": "2025-07-12 23:03:50 +0000",
+      "minecraft:old_growth_birch_forest": "2025-07-12 23:18:29 +0000",
+      "minecraft:ocean": "2025-07-12 23:12:19 +0000",
       "minecraft:grove": "2025-07-12 23:09:19 +0000",
       "minecraft:meadow": "2025-07-12 22:05:35 +0000",
       "minecraft:birch_forest": "2025-07-12 23:14:22 +0000",
-      "minecraft:stony_shore": "2025-07-12 23:13:08 +0000",
-      "minecraft:frozen_peaks": "2025-07-12 23:03:50 +0000"
+      "minecraft:plains": "2025-07-13 09:19:57 +0000"
     },
     "done": false
   },
@@ -3909,7 +3910,331 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-07-12 22:44:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2025-07-12 22:44:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2025-07-12 22:44:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2025-07-12 22:44:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2025-07-12 22:46:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2025-07-12 22:46:00 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/stonecutter/tumblestone": {
+    "criteria": {
+      "has_tumblestone": "2025-07-12 22:46:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_torch": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/clock": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/note_block": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/target": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/compass": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dropper": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_block": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/piston": {
+    "criteria": {
+      "has_redstone": "2025-07-12 22:47:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_slab": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/granite_wall": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
+    "criteria": {
+      "has_granite": "2025-07-12 22:53:54 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/furnace/blue_apricorn": {
+    "criteria": {
+      "has_apricorn": "2025-07-12 22:58:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2025-07-12 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2025-07-12 22:58:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_sign": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/bench/bench": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/oak_fence": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_button": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/oak_slab": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/oak_door": {
+    "criteria": {
+      "has_planks": "2025-07-12 22:59:29 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/furnace/bauxite_ore": {
+    "criteria": {
+      "has_the_recipe": "2025-07-12 23:05:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/terrain/cave_rock": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/decor/terrain/rock": {
+    "criteria": {
+      "has_stone": "2025-07-12 23:05:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
     "criteria": {
       "has_stone": "2025-07-12 23:05:24 +0000"
     },
@@ -3935,18 +4260,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/fletching_table": {
-    "criteria": {
-      "has_flint": "2025-07-12 22:46:00 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:types/capture_type_trigger": {
-    "criteria": {
-      "capture_any": "2025-07-12 23:08:37 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/pokeball/lid/luxury_ball_lid": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000",
@@ -3954,42 +4267,6 @@
       "has_heal_ball": "2025-07-12 23:07:04 +0000",
       "has_nest_ball": "2025-07-12 23:07:04 +0000",
       "has_ultra_ball": "2025-07-12 23:07:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_sign": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_torch": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-07-12 22:44:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/clock": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
     },
     "done": true
   },
@@ -4013,18 +4290,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/pokeball/lid/moon_ball_lid": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000",
@@ -4041,81 +4306,15 @@
     },
     "done": true
   },
-  "pixelmon:recipes/decor/bench/bench": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/lures/lure_type_strong": {
-    "criteria": {
-      "has_case_recipe": "2025-07-12 23:26:22 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/machines/trade_machine/trade_holder_right": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/machines/trade_machine/trade_monitor": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_stairs": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_wood": {
-    "criteria": {
-      "has_log": "2025-07-12 22:58:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/granite_wall_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/oak_fence": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:balls/ball_capture_trigger": {
-    "criteria": {
-      "ball_capture_poke_ball": "2025-07-12 23:08:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_button": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stonecutter": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/stone_pressure_plate": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
     },
     "done": true
   },
@@ -4129,141 +4328,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_stone": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/note_block": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/target": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/furnace/blue_apricorn": {
-    "criteria": {
-      "has_apricorn": "2025-07-12 22:58:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/blue_ice": {
-    "criteria": {
-      "has_packed_ice": "2025-07-12 23:17:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_slab": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/machines/trade_machine/trade_panel": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/compass": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_button": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/pokeball/lid/premier_ball_lid": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
-    "criteria": {
-      "has_raw_gold": "2025-07-12 22:44:13 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/decor/terrain/cave_rock": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/oak_slab": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_stairs": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/raw_gold_block": {
-    "criteria": {
-      "has_raw_gold": "2025-07-12 22:44:13 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/birch_planks": {
-    "criteria": {
-      "has_logs": "2025-07-12 22:58:35 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/sweet_heart": {
-    "criteria": {
-      "has_sugar": "2025-07-12 23:07:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/lures/lure_shiny_strong": {
-    "criteria": {
-      "has_case_recipe": "2025-07-12 23:26:22 +0000"
     },
     "done": true
   },
@@ -4287,18 +4360,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/flint_and_steel": {
-    "criteria": {
-      "has_flint": "2025-07-12 22:46:00 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/pokeball/lid/safari_ball_lid": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000",
@@ -4306,12 +4367,6 @@
       "has_heal_ball": "2025-07-12 23:07:04 +0000",
       "has_nest_ball": "2025-07-12 23:07:04 +0000",
       "has_ultra_ball": "2025-07-12 23:07:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/granite_wall": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
     },
     "done": true
   },
@@ -4325,24 +4380,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_slab_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/lures/lure_ha_strong": {
-    "criteria": {
-      "has_case_recipe": "2025-07-12 23:26:22 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/pokeball/lid/heavy_ball_lid": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000",
@@ -4350,18 +4387,6 @@
       "has_heal_ball": "2025-07-12 23:07:04 +0000",
       "has_nest_ball": "2025-07-12 23:07:04 +0000",
       "has_ultra_ball": "2025-07-12 23:07:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/oak_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/dropper": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
     },
     "done": true
   },
@@ -4375,30 +4400,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/oak_door": {
-    "criteria": {
-      "has_planks": "2025-07-12 22:59:29 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/carrot_on_a_stick": {
-    "criteria": {
-      "has_carrot": "2025-07-12 22:44:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/pokeball/lid/dusk_ball_lid": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000",
@@ -4406,30 +4407,6 @@
       "has_heal_ball": "2025-07-12 23:07:04 +0000",
       "has_nest_ball": "2025-07-12 23:07:04 +0000",
       "has_ultra_ball": "2025-07-12 23:07:04 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/furnace/bauxite_ore": {
-    "criteria": {
-      "has_the_recipe": "2025-07-12 23:05:02 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/lures/lure_casing_strong": {
-    "criteria": {
-      "has_crystal": "2025-07-12 23:26:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_block": {
-    "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
-    },
-    "done": true
-  },
-  "pixelmon:recipes/decor/terrain/rock": {
-    "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
     },
     "done": true
   },
@@ -4459,33 +4436,249 @@
     },
     "done": true
   },
-  "pixelmon:recipes/stonecutter/tumblestone": {
-    "criteria": {
-      "has_tumblestone": "2025-07-12 22:46:01 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_granite_stairs_from_granite_stonecutting": {
-    "criteria": {
-      "has_granite": "2025-07-12 22:53:54 +0000"
-    },
-    "done": true
-  },
   "pixelmon:recipes/machines/trade_machine/trade_holder_left": {
     "criteria": {
       "has_poke_ball": "2025-07-12 23:07:04 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/redstone/piston": {
+  "pixelmon:recipes/sweet_heart": {
     "criteria": {
-      "has_redstone": "2025-07-12 22:47:35 +0000"
+      "has_sugar": "2025-07-12 23:07:58 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/stone_stairs": {
+  "pixelmon:types/capture_type_trigger": {
     "criteria": {
-      "has_stone": "2025-07-12 23:05:24 +0000"
+      "capture_any": "2025-07-12 23:08:37 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:balls/ball_capture_trigger": {
+    "criteria": {
+      "ball_capture_poke_ball": "2025-07-12 23:08:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2025-07-12 23:17:04 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/lures/lure_type_strong": {
+    "criteria": {
+      "has_case_recipe": "2025-07-12 23:26:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/lures/lure_shiny_strong": {
+    "criteria": {
+      "has_case_recipe": "2025-07-12 23:26:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/lures/lure_ha_strong": {
+    "criteria": {
+      "has_case_recipe": "2025-07-12 23:26:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/lures/lure_casing_strong": {
+    "criteria": {
+      "has_crystal": "2025-07-12 23:26:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/blast_furnace/pink_apricorn": {
+    "criteria": {
+      "has_apricorn": "2025-07-13 09:01:42 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/furnace/pink_apricorn": {
+    "criteria": {
+      "has_apricorn": "2025-07-13 09:01:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_leggings": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_sword": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jukebox": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_chestplate": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2025-07-13 09:50:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-13 09:49:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2025-07-13 09:49:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_pickaxe": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brown_glazed_terracotta": {
+    "criteria": {
+      "has_brown_terracotta": "2025-07-13 09:48:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2025-07-13 09:45:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/packed_mud": {
+    "criteria": {
+      "has_mud": "2025-07-13 09:42:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-07-13 09:50:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-07-13 09:50:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_hoe": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_shovel": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_boots": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2025-07-13 09:50:22 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/curry/brittle_bones": {
+    "criteria": {
+      "has_bone": "2025-07-13 09:45:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/diamond_helmet": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "pixelmon:recipes/equipment/vanilla/diamond_hammer": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-07-13 09:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diamond_block": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-07-13 09:49:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/mine_diamond": {
+    "criteria": {
+      "diamond": "2025-07-13 09:18:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_axe": {
+    "criteria": {
+      "has_diamond": "2025-07-13 09:18:05 +0000"
     },
     "done": true
   },
